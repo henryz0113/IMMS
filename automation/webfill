@@ -1,3 +1,9 @@
 //Fill in VISITOR_NAME and VISITOR_PHONE ONLY
 //COPY THE BELOW ONLY
 javascript:(function(){var VISITOR_NAME='홍길동';var VISITOR_PHONE='010-1234-5678';document.getElementById('compId').value='COMP_ID_HERE';document.getElementById('userNm').value='이혜란';document.getElementById('userPhone').value='010-7377-8931';document.getElementById('visitorNm').value=VISITOR_NAME;document.getElementById('visitorPhone').value=VISITOR_PHONE;document.getElementById('visitorEmail').value='user@example.com';document.getElementById('visitorComp').value='카이스트';var today=new Date();var ymd=today.getFullYear()+'-'+String(today.getMonth()+1).padStart(2,'0')+'-'+String(today.getDate()).padStart(2,'0');document.getElementById('visitYmd').value=ymd;document.getElementById('visitHm').value='19:30';document.getElementById('puposeType').value='01';var cb=document.getElementById('cbPerson1');if(cb&&!cb.checked){cb.click();}})();
+
+
+// goto chrome or edge => goto bookmakr manager => add new page 
+// name "IFC automate" => add the above javascript to url
+// goto https://visitor.ifcseoul.com/mng/visit/reserve/reserve.do
+// Click the IFC automate
